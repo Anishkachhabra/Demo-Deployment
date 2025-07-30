@@ -1,0 +1,15 @@
+This file explains how deployment for a small project is done.
+
+1. First of all, we started an instance of ubuntu and connected it through git bash, make sure you open the git bash in the folder where the ".pem" file is present.
+
+2. Then we updated the server using "sudo apt update"
+
+3. Then we updated the node server to the latest stable version i.e. V22 by following commands:
+* sudo apt install curl
+* curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+4. Make sure to exit and connect the server again. These above steps installed nvm: node version manager
+
+5. Then we run: "nvm install --lts". This installs node version: v22.17.1
+
+6. Run the following commands to 
