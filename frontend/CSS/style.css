@@ -1,0 +1,43 @@
+body{
+    margin: 20px;
+    font-size: 20px;
+}
+
+div {
+    font-family:monospace;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #96adfe;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/*
+    Difference bw container and container fluid:
+    container is fixed width, container-fluid is full width
+*/
+
+table{
+    margin: 5px;
+}
+
+th{
+    background-color: #F49CBB;
+    padding: 10px;
+}
+
+th:hover{
+    background-color: #F26A8D;
+    padding: 10px;
+}
+
+td{
+    background-color: #CBEEF3;
+    padding: 10px;
+}
+
+td:hover{
+    background-color: #a4dae4;
+    padding: 10px;
+}

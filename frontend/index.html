@@ -1,0 +1,61 @@
+<!-- tags are the parts of language writing and specification e.g. <div>, <html> etc. -->
+<!-- elements are the parts which are rendered in DOM -->
+<!-- meta data: data about data -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta tags are used to increase the reach and domain of the website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
+    <!-- This line above i.e. line no. 9 is used to scale the website according to the device. -->
+    <!-- name="viewport": defines the name of the meta data -->
+    <!-- content="width=device-width, initial-scale=1.0": initial width of website is device width and intial scale is 1.0 when the website is loaded -->
+    <title>PG-1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
+    <script src="JS/data.js" defer></script>
+    <!-- async and defer are non-blocking attributes for script tags in HTML. They allow the browser to continue parsing the HTML while the script is being downloaded -->
+</head>
+<!-- sementic tags are used to make website more searchable and better clarity of the browser -->
+
+<body>
+    <!-- Hello World! -->
+    <div id="tag1">Hello World</div>
+
+    <!-- <head>Welcome to eCommerce store</head> -->
+    <!-- <div id="tag2">List of Products</div> -->
+    <div id="tag3">
+        <!-- <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>$10</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$20</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Product 3</td>
+                    <td>$30</td>
+                    <td>300</td>
+                </tr>
+            </tbody>
+        </table> -->
+    </div>
+    <!-- The javascript could not manipulate the html because it was executing before html body tag, so we use defer with script tag -->
+</body>
+<!-- Whatever number of files we create, we need to add them to include in the final code. -->
+
+</html>
