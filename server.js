@@ -3,7 +3,7 @@ var app = express();
 
 var port = 8080; // 8080 is default port for unsecure HTTP traffic
 
-app.use(express.static('public')); // Serve static files from the 'public' directory in node.js
+app.use(express.static('frontend')); // Serve static files from the 'public' directory in node.js
 // This will allow us to serve HTML, CSS, and JavaScript files which are static assets
 
 app.listen(port, function() {
